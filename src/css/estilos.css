@@ -151,35 +151,8 @@ body{
 
 .about__icon{
     width: 40px;
-
 }
 /*KNOWLEDGE*/
-
-.knowledge{
-    background: linear-gradient(90deg, #db5959, #daab68);
-    overflow: hidden;
-}
-.knowledge__container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-    align-items: center;
-}
-
-.knowledge__picture{
-    max-width: 500px;
-}
-
-.knowledge__paragraph{
-    line-height: 1.7;
-    margin-bottom: 15px;
-}
-
-.knowledge__img{
-    width: 100%;
-    display: block;
-    border-radius: 1%;
-}
 
 .peliculas__img{
     width: 250px;
@@ -187,101 +160,12 @@ body{
     border-radius: 5%;
     object-fit: cover;
 }
-/*testimony*/
-
-.testimony{
-    background-color:#040404;
-}
-.testimony_container{
-    display: grid;
-    grid-template-columns: 50px 1fr 50px;
-    gap: 1em;
-    align-items: center;
- 
-}
-.testimony__body{
-    display: grid;
-    grid-template-columns: 1fr max-content;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2em;
-;
-
-}
-.testimony__img{
-    width: 250px;
-    height: 250px;
-    border-radius: 5%;
-    object-fit: cover;
-}
-.testimony__texts{
-    max-width: 700xp;
-
-}
-.subtitle3{
-    color: #fff;
-    font-size: 2rem;
-    margin-bottom: 25px;
-    text-decoration: underline;
-}
-.subtitle2{
-    color: #fff;
-    font-size: 1.2 rem;
-    margin-bottom: 25px;
-    
-}
-.testimony__review{
-    color:#fff;
-
-}
-/*HISTORIa*/
-.history{
-    text-align: center;
-}
-
-.historys__container{
-    display: grid;
-    gap: 2em;
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-
-.history__padding{
-    padding: 0;
-    border: 1px solid #0000008c;
-    border-radius: 6px;
-}
-
-.history__padding--add{
-    padding-bottom: 30px;
-}
-
-.historys__answer{
-    padding: 0 30px 0;
-    font-size: 20px;
-    color: var(--color-title);
-    overflow: hidden;
-}
-
-.historys__title{
-    display: flex;
-    padding: 50px 0 30px;
-    font-size: 20px;
-    color: var(--color-title);
-}
-
-.historys__show{
-    text-align: left;
-    padding: 0 0 30px;
-}
-
-.getalbum__copy{
-    width: 60%;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
 
 /*QUESTIONSASDAS*/
+.perfil{
+    display: block;
+    width: 50px;
+}
 .historia{
     text-align: center;
 }
@@ -293,15 +177,15 @@ body{
 .historia__padding{
     padding: 10;
     border: 1px solid #040404;
-    border-radius: 6px;
-
+    border-radius: 3px;
+    background-color: #efeded8c;
 }
 
 .historia__padding--add{
     padding-bottom:30px;
 }
 .historia__answer{
-    padding: 30px 30px 30px;
+    padding: 20px 20px 20px;
     font-size: 20px;
     color: #040404;
 }
@@ -314,13 +198,7 @@ body{
 
 }
 
-
-.getalbum__copy{
-    width: 60%;
-    margin: 0 auto;
-    margin-bottom: 30px;
-
-}
+/**/
 .footer{
     background-color: #040404;
 }
@@ -363,6 +241,7 @@ body{
 }
 
 /*                 PELiculasd               */
+
 #Artistas{
     background-color: rgb(30, 30, 30);
     color: white;
@@ -370,7 +249,7 @@ body{
 }
 
 #Artistas .container{
-    padding: 150px 12px;
+    padding: 150px 120px;
 } 
 
 #Artistas h3{
@@ -382,10 +261,10 @@ body{
 }
 
 #Artistas .carta{
-    background-position: center center;
+    background-position: center;
     background-size: cover;
-    padding: 50px;
-    margin: 20px;
+    padding: 30px;
+    margin: 50px;
     border-radius: 15px;
 }
 
@@ -395,7 +274,6 @@ body{
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
     )
-    ,url('../img/NOTD.jpg');
 }
 
 .carta:nth-child(2){
@@ -404,7 +282,6 @@ body{
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
     )
-    ,url('../img/The Kite String Tangle.jpg');
 }
 
 .carta:nth-child(3){
@@ -413,8 +290,7 @@ body{
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
     )
-    ,url('../img/Rei Harakami.jpg');
 }
 
-
+/*  MENU DE PELICULAS */
 
